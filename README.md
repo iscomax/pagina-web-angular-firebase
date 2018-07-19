@@ -1,27 +1,12 @@
-# ProyectoRecicla
+# Proyecto Web Social
+## Construcción de un sitio web de reciclaje y recolección de basura electrónica.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+México es uno de los mayores generadores de basura electrónica en Latinoamérica.
+De acuerdo con el estudio "El Monitor global de la basura electrónica 2017", publicado por la Organización de las Naciones Unidas (ONU), México y Brasil encabezan la lista de generadores de residuos electrónicos en Latinoamérica. El estudio señala que en la región se generaron 11,6 kilos de residuos electrónicos por habitante en 2016 y sólo se recicla el 17 %.
+En México ocho de cada nueve equipos electrónicos se convierten en basura que llega a rellenos sanitarios, barrancas o tiraderos clandestinos, o bien acaban arrumbados en casa, y solo uno se recicla.
 
-## Development server
+Debido a lo antes mencionado se plantea la creación de un sitio web  que tenga como fin ayudar al medio ambiente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Se desarrollara un página  landing page en donde el usuario podrá encontrar información acerca de los centros de reciclajes electrónicos en la CDMX tales como su nombre, ubicación, y enlaces a sus sitios web.Se tomara información del sitio web oficial de la SEDEMA de la CDMX  Para publicar las fechas de los próximos reciclatones organizados por el gobierno local.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+También el sitio web  contará con un apartado de notas informativas  y videos sobre el reciclaje electrónico.Con este tipo de contenido en la página se pretende poder fomentar el reciclaje electrónico en la CDMX.
