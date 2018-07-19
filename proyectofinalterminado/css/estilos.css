@@ -1,0 +1,161 @@
+/*estilos de pestaña index */
+
+body{
+    max-width: 100%;
+    
+    
+}
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+.modal-dialog{
+    max-width: 600px;
+    
+}
+.img1{
+    margin-right: 800px;
+    margin-top: 100px;
+}
+.img2{
+    margin-left: 800px;
+
+}
+.img3{
+    margin-left: 800px;
+    margin-top: 500px;
+
+}
+.img4{
+    margin-top: 400px;
+}
+
+/*estilos de pestaña inicio */
+
+.fondo{
+    background-image: url(../images/fondocuadro.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0,0;
+    background-attachment: fixed;
+    
+
+}
+/*carousel*/
+.titulo{
+    color: black;
+}
+
+
+/*estilos de pestaña inicio Tarjetas*/
+.card{
+    margin-top: 30px;
+    width: 445px;
+    height: 730px;
+}
+
+.jumbotron{
+  
+    margin-bottom: 0rem;
+    background-image: url(../images/jumbotron/fondo.jpg);
+    color: #fff;
+
+}
+
+.container{
+    max-width: 90%;
+}
+
+
+/*menu informativo*/
+.nav-tabs{
+    background-color:white;
+    margin-top: 50px;
+}
+.tab-content{
+    background-color:#237d2999;
+}
+
+.nav-tabs{
+    background-image: url(../images/jumbotron/fondo2.jpg)
+}
+.margen{
+    margin-top: 100px;
+}
+
+
+
+/*tablas de noticias*/
+table{/*+++++++++++++++++++++++++++++++*/
+    border-radius: .25rem;
+    background-color:#ffc107;
+    width: 414px;
+    height: 453px;
+}                                 
+
+.noticias tr td{
+    border: 1px solid black;
+    
+}
+.noticias:hover {background-color:#26fb1099;}
+
+/*+++++++++++++++++++++++++++++++*/
+
+.categorias {
+    border-radius: .25rem;
+    background-color: rebeccapurple;
+    color:black;
+    width: 800px;
+    height: 450px;
+    background-image: url(../images/tipos/verde1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0,0;
+    
+
+}
+.videos{
+   margin-top: 50px;
+}
+
+table.contacto {
+    background-image: url(../images/fondocontacto.jpg);
+    border: 1px solid black;
+    height: 74px;
+
+}
+
+table.form{
+    width: 670px;
+    height: 60px;
+    background-color: #fff;
+
+}
+input.form-control{
+    width: 300px;
+}
+
+/*----------- CAJA ----------- */
+
+.caja {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #069e08;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #069e08;
+    max-width: 705px;
+    margin-top: 50px;
+}
