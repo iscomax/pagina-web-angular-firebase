@@ -1,0 +1,55 @@
+/*menu informativo*/
+.nav-tabs{
+    background-color:white;
+    margin-top: 50px;
+}
+.tab-content{
+    background-color:#237d2999;
+}
+
+.nav-tabs{
+    background-image: url(../../assets/images/jumbotron/fondo2.jpg)
+}
+.margen{
+    margin-top: 100px;
+}
+
+.jumbotron{
+  
+    margin-bottom: 0rem;
+    background-image: url(../../assets/images/jumbotron/fondo.jpg);
+    color: #fff;
+    margin-top: 30px;
+
+}
+.categorias {
+    border-radius: .25rem;
+    background-color: rebeccapurple;
+    color:black;
+    width: 800px;
+    height: 450px;
+    background-image: url(../../assets/images/tipos/verde1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0,0;
+    
+
+}
+/*+++++++++++++++++++++++++++++++*/
+
+.container{
+    max-width: 90%;
+
+
+}
+
+table{
+    border-radius: .25rem;
+    background-color:#ffc107;
+    width: 414px;
+    height: 453px;
+}
+.videos{
+    margin-top: 50px;
+ }
+ 

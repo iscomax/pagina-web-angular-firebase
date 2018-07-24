@@ -1,8 +1,11 @@
-/*estilos de pestaña index */
+/*estilos de pestaña noticias */
 .container{
     max-width: 100%;
 }
 
+.margen{
+    margin-top: 100px;
+}
 
 /*tablas de noticias*/
 table{/*+++++++++++++++++++++++++++++++*/
