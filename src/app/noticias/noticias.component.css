@@ -1,0 +1,22 @@
+/*estilos de pestaña index */
+.container{
+    max-width: 100%;
+}
+
+
+/*tablas de noticias*/
+table{/*+++++++++++++++++++++++++++++++*/
+    border-radius: .25rem;
+    background-color:#ffc107;
+    width: 414px;
+    height: 453px;
+}                                 
+
+.noticias tr td{
+    border: 1px solid black;
+    
+}
+.noticias:hover {background-color:#26fb1099;}
+
+/*+++++++++++++++++++++++++++++++*/
+

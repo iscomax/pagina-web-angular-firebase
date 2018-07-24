@@ -1,0 +1,11 @@
+.titulo {
+    color: black;
+}
+
+.jumbotron{
+  
+    margin-bottom: 0rem;
+    background-image: url(../../../assets/images/jumbotron/fondo.jpg);
+    color: #fff;
+
+}
