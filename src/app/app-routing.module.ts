@@ -8,6 +8,7 @@ import { InformacionComponent } from './informacion/informacion.component';
 import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/inicio', pathMatch: 'full' },
   {path:'inicio', component:InicioComponent},
   {path:'noticias', component:NoticiasComponent},
   {path:'informacion', component:InformacionComponent},
