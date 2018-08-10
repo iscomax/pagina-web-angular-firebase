@@ -32,6 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0,0;
+    margin-left: 250px;
     
 
 }
@@ -39,6 +40,7 @@
 
 .container{
     max-width: 90%;
+    
 
 
 }
@@ -51,5 +53,7 @@ table{
 }
 .videos{
     margin-top: 50px;
+    margin-left: 142px;
  }
  
+
