@@ -9,48 +9,35 @@
   <div class="col-md-3"></div>
 
   <div class="col-md-6 caja">
-      <form action="#" name="datosform" method="POST">
-          <table class="form form-group">
+     <!-- <form action="http://wyvernmx.online/proyectobootcam/formulario.php" name="datosform" method="GET">-->
+        <form (ngSubmit)="sendform()" name="datosform" method="GET">
+        <table class="form form-group">
               <tr>
                   <th colspan="2">Contáctenos y con gusto resolveremos todas sus dudas a la brevedad posible.</th>
               </tr>
               <tr>
-                  <th><label for="txtnombre">Nombre</label></th>
-                  <td><input type="text" class="form-control" name="txtnombre" id="txtnombre"  placeholder="Escribe tu Nombre y Apellidos" value="">  </td>
+                  <th><label for="nombre">Nombre</label></th>
+                  <td><input type="text" class="form-control" name="nombre" id="nombre"  placeholder="Escribe tu Nombre y Apellidos" value="">  </td>
               </tr>
               <tr>
-                      <th><label for="txtemail">Email</label></th>
-                      <td><input type="email" class="form-control" name="txtemail" id="txtemail"  placeholder="ejemplo@email.com" value="">  </td>
+                      <th><label for="email">Email</label></th>
+                      <td><input type="email" class="form-control" name="email" id="email"  placeholder="ejemplo@email.com" value="">  </td>
               </tr>
               <tr>
                   <th>
                       <label for="">Telefono</label>
                   </th>
                   <td>
-                      <input type="text" class="form-control" name="" id=""  placeholder="Escribe tu Telefono" value="">
+                      <input type="text" class="form-control" name="telefono" id="telefono"  placeholder="Escribe tu Telefono" value="">
                   </td>
-              </tr>
-              <tr>
-                  <td colspan="2">
-                      <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                          <label class="form-check-label" for="inlineRadio1">Local</label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                          <label class="form-check-label" for="inlineRadio2">Celular</label>
-                      </div>
-                               
-                  </td>
-              </tr>
+             </tr>
              
               <tr>
                   <td colspan="2">
                       <div class="form-group">
-                       <label for="exampleFormControlTextarea1">Comentarios</label>
-                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                       <label for="comentarios">Comentarios</label>
+                       <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
                       </div>
-                  </td>
               </tr>
               <tr>
                   <td colspan="2">

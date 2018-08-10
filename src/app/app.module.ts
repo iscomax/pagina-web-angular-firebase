@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { FormsModule } from '@angular/forms'
+import { FormService} from './services/form.service';
+//import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +18,9 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { InformacionComponent } from './informacion/informacion.component';
 import { ContactoComponent } from './contacto/contacto.component';
+
+
+
 
 
 @NgModule({
@@ -30,9 +38,18 @@ import { ContactoComponent } from './contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    //HttpModule,
+    FormsModule,
+    HttpClientModule,
+   
+
+
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [FormService],
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }
+
+
