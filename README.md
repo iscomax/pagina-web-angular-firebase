@@ -14,7 +14,7 @@ Debido a lo antes mencionado se plantea la creación de un sitio web  que tenga 
 Fomentar el reciclaje electrónico en la CDMX
 
 
-## Alcances y Limitaciones 
+## Alcances 
 Se pretende desarrollar un página  landing page en donde el usuario podrá encontrar información acerca de los centros de reciclajes electrónicos en la CDMX tales como su nombre, ubicación, y enlaces a sus sitios web.Se tomara información del sitio web oficial de la SEDEMA de la CDMX  Para publicar las fechas de los próximos reciclatones organizados por el gobierno local.
 
 También el sitio web  contará con un apartado de notas informativas  y videos sobre el reciclaje electrónico.
