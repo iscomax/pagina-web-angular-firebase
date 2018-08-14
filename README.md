@@ -19,6 +19,8 @@ Se pretende desarrollar un página  landing page en donde el usuario podrá enco
 
 También el sitio web  contará con un apartado de notas informativas  y videos sobre el reciclaje electrónico.
 
+https://proyectofinalcodeando.firebaseapp.com
+
 
 
 
